@@ -8,67 +8,67 @@ label,
 input,
 div {
     font-family: $mainFont;
-    font-size: 18px !important;
-    font-weight: 300 !important;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .h1 {
     font-family: $mainFont;
-    font-size: 48px !important;
-    font-weight: 200 !important;
+    font-size: 48px;
+    font-weight: 200;
 }
 
 .h2 {
     font-family: $mainFont;
-    font-size: 30px !important;
+    font-size: 30px;
     font-weight: 300;
 }
 
 .h3 {
     font-family: $mainFont;
-    font-size: 22px !important;
+    font-size: 22px;
 }
 
 /* General */
 .logo {
-    font-weight: 500 !important;
+    font-weight: 500;
 }
 
 .text-warning {
-    color: #ede861 !important;
+    color: #ede861;
 }
 
 .text-muted {
-    color: #bcbcbc !important;
+    color: #bcbcbc;
 }
 
 .text-success {
-    color: #59ab6e !important;
+    color: #59ab6e;
 }
 
 .text-light {
-    color: #cfd6e1 !important;
+    color: #cfd6e1;
 }
 
 .bg-dark {
-    background-color: #212934 !important;
+    background-color: #212934;
 }
 
 .bg-light {
-    background-color: #e9eef5 !important;
+    background-color: #e9eef5;
 }
 
 .bg-black {
-    background-color: #1d242d !important;
+    background-color: #1d242d;
 }
 
 .bg-success {
-    background-color: #59ab6e !important;
+    background-color: #59ab6e;
 }
 
 .btn-success {
-    background-color: #59ab6e !important;
-    border-color: #56ae6c !important;
+    background-color: #59ab6e;
+    border-color: #56ae6c;
 }
 
 .pagination .page-link:hover {
@@ -87,7 +87,7 @@ div {
 }
 
 #templatemo_nav_top * {
-    font-size: .9em !important;
+    font-size: .9em;
 }
 
 #templatemo_main_nav a {
@@ -104,7 +104,7 @@ div {
 
 /* Hero Carousel */
 #template-mo-zay-hero-carousel {
-    background: #efefef !important;
+    background: #efefef;
 }
 
 /* Accordion */
@@ -118,7 +118,7 @@ div {
 
 /* Shop */
 .shop-top-menu a:hover {
-    color: #69bb7e !important;
+    color: #69bb7e;
 }
 
 /* Product */
@@ -163,7 +163,7 @@ div {
 }
 
 #carousel-related-product .slick-slide:focus {
-    outline: none !important;
+    outline: none;
 }
 
 #carousel-related-product .slick-dots li button:before {
@@ -191,14 +191,14 @@ div {
 
 #template-mo-zay-hero-carousel .carousel-control-next i,
 #template-mo-zay-hero-carousel .carousel-control-prev i {
-    color: #59ab6e !important;
-    font-size: 2.8em !important;
+    color: #59ab6e;
+    font-size: 2.8em;
 }
 
 /* Carousel Brand */
 .tempaltemo-carousel .h1 {
-    font-size: .5em !important;
-    color: #000 !important;
+    font-size: .5em;
+    color: #000;
 }
 
 /* Services */
@@ -218,7 +218,7 @@ div {
 /* Contact map */
 .leaflet-control a,
 .leaflet-control {
-    font-size: 10px !important;
+    font-size: 10px;
 }
 
 .form-control {
@@ -255,7 +255,7 @@ div {
 }
 
 #tempaltemo_footer .border-light {
-    border-color: #2d343f !important;
+    border-color: #2d343f;
 }
 
 /*
@@ -267,7 +267,7 @@ div {
 .product-wap li,
 .product-wap i,
 .product-wap p {
-    font-size: 12px !important;
+    font-size: 12px;
 }
 
 .product-wap .product-color-dot {

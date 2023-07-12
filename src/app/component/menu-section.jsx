@@ -1,3 +1,6 @@
+import React from "react";
+import { NavLink } from 'react-router-dom'
+
 function MenuSection() {
     return (
       // Header
@@ -14,20 +17,20 @@ function MenuSection() {
 
           <div className="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
               <div className="flex-fill">
-                  <ul className="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                      <li className="nav-item">
-                          <a className="nav-link" href="index.html">Home</a>
-                      </li>
-                      <li className="nav-item">
-                          <a className="nav-link" href="about.html">About</a>
-                      </li>
-                      <li className="nav-item">
-                          <a className="nav-link" href="shop.html">Shop</a>
-                      </li>
-                      <li className="nav-item">
-                          <a className="nav-link" href="contact.html">Contact</a>
-                      </li>
-                  </ul>
+                    <ul className="nav navbar-nav d-flex justify-content-between mx-lg-auto">                    
+                        <li className="nav-item">
+                            <NavLink to="/" className="nav-link">Home</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/about" className="nav-link">About</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/shop" className="nav-link">Shop</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/contact" className="nav-link">Contact</NavLink>
+                        </li>
+                    </ul>
               </div>
               <div className="navbar align-self-center d-flex">
                   <div className="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
@@ -52,9 +55,9 @@ function MenuSection() {
               </div>
           </div>
 
-      </div>
-  </nav>
-  // Close Header
+        </div>
+    </nav>
+    // Close Header
     );
   }
   
