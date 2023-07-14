@@ -29,13 +29,27 @@ function FooterSection() {
                     <div className="col-md-4 pt-5">
                         <h2 className="h2 text-light border-bottom pb-3 border-light">Products</h2>
                         <ul className="list-unstyled text-light footer-link-list">
-                            <li><a className="text-decoration-none" href="#">Luxury</a></li>
-                            <li><a className="text-decoration-none" href="#">Sport Wear</a></li>
-                            <li><a className="text-decoration-none" href="#">Men's Shoes</a></li>
-                            <li><a className="text-decoration-none" href="#">Women's Shoes</a></li>
-                            <li><a className="text-decoration-none" href="#">Popular Dress</a></li>
-                            <li><a className="text-decoration-none" href="#">Gym Accessories</a></li>
-                            <li><a className="text-decoration-none" href="#">Sport Shoes</a></li>
+                            <li>
+                                <Link to="/luxury" className="nav-link">Luxury</Link>
+                            </li>
+                            <li>
+                                <Link to="/sport-wear" className="nav-link">Sport Wear</Link>
+                            </li>
+                            <li>
+                                <Link to="/mens-shoes" className="nav-link">Men's Shoes</Link>
+                            </li>
+                            <li>
+                                <Link to="/womens-shoes" className="nav-link">Women's Shoes</Link>
+                            </li>
+                            <li>
+                                <Link to="/popular-dress" className="nav-link">Popular Dress</Link>
+                            </li>
+                            <li>
+                                <Link to="/gym-accessories" className="nav-link">Gym Accessories</Link>
+                            </li>
+                            <li>
+                                <Link to="/sport-shoes" className="nav-link">Sport Shoes</Link>
+                            </li>
                         </ul>
                     </div>
 
@@ -96,9 +110,9 @@ function FooterSection() {
                 <div className="container">
                     <div className="row pt-2">
                         <div className="col-12">
-                            <p className="text-left text-light">
+                            <p className="text-left text-light footLast">
                                 Copyright &copy; 2021 Company Name 
-                                | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
+                                | Designed by <a rel="sponsored" href="#" target="_blank">Bharat Negi</a>
                             </p>
                         </div>
                     </div>

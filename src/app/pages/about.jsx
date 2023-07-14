@@ -1,5 +1,6 @@
 import React from "react";
 import BrandInfo from '../component/brand-info';
+import AboutHero from '../images/about-hero.svg';
 
 function About() {
   return (
@@ -17,7 +18,7 @@ function About() {
               </p>
             </div>
             <div className="col-md-4">
-              <img src={require('../images/about-hero.svg')} alt="About Hero" />
+              {/* <img src={require(<AboutHero />)} alt="About Hero" /> */}
             </div>
           </div>
         </div>
