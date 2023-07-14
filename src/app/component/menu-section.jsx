@@ -1,5 +1,7 @@
 import React from "react";
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+
+const Main = () => <h1>Hello world</h1>;
 
 function MenuSection() {
     return (
@@ -19,16 +21,16 @@ function MenuSection() {
               <div className="flex-fill">
                     <ul className="nav navbar-nav d-flex justify-content-between mx-lg-auto">                    
                         <li className="nav-item">
-                            <NavLink to="/" className="nav-link">Home</NavLink>
+                            {/* <Link path="/" className="nav-link">Home</Link> */}
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/about" className="nav-link">About</NavLink>
+                            {/* <NavLink to="/about" className="nav-link">About</NavLink> */}
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/shop" className="nav-link">Shop</NavLink>
+                            {/* <NavLink to="/shop" className="nav-link">Shop</NavLink> */}
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/contact" className="nav-link">Contact</NavLink>
+                            {/* <NavLink to="/contact" className="nav-link">Contact</NavLink> */}
                         </li>
                     </ul>
               </div>

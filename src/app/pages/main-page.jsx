@@ -1,6 +1,6 @@
 function MainSection() {
     return (
-        <div>
+        <>
             {/* Start Banner Hero */}
             <div id="template-mo-zay-hero-carousel" className="carousel slide" data-bs-ride="carousel">
                 <ol className="carousel-indicators">
@@ -200,7 +200,7 @@ function MainSection() {
                 </div>
             </section>
             {/* End Featured Product */}
-        </div>
+        </>
     );
   }
   
