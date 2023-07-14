@@ -1,4 +1,7 @@
 /* Slider */
+::marker{
+    display: none;
+}
 .slick-loading .slick-list
 {
     background: #fff url('../images/ajax-loader.gif') center center no-repeat;

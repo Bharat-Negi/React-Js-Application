@@ -43,7 +43,7 @@ div {
 }
 
 .text-success {
-    color: #59ab6e;
+    color: $greenColor;
 }
 
 .text-light {
@@ -63,11 +63,11 @@ div {
 }
 
 .bg-success {
-    background-color: #59ab6e;
+    background-color: $greenColor;
 }
 
 .btn-success {
-    background-color: #59ab6e;
+    background-color: $greenColor;
     border-color: #56ae6c;
 }
 
@@ -75,10 +75,10 @@ div {
     color: #000;
 }
 
-.pagination .page-link:hover,
-.pagination .page-link.active {
+.pagination a.page-link:hover,
+.pagination a.page-link.active {
     background-color: #69bb7e;
-    color: #fff;
+    color: #fff !important;
 }
 
 /* Nav */
@@ -186,12 +186,12 @@ div {
 /* Carousel Hero */
 #template-mo-zay-hero-carousel .carousel-indicators li {
     margin-top: -50px;
-    background-color: #59ab6e;
+    background-color: $greenColor;
 }
 
 #template-mo-zay-hero-carousel .carousel-control-next i,
 #template-mo-zay-hero-carousel .carousel-control-prev i {
-    color: #59ab6e;
+    color: $greenColor;
     font-size: 2.8em;
 }
 

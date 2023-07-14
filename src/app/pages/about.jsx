@@ -18,7 +18,7 @@ function About() {
               </p>
             </div>
             <div className="col-md-4">
-              {/* <img src={require(<AboutHero />)} alt="About Hero" /> */}
+              <img src={AboutHero} alt="About Hero" />
             </div>
           </div>
         </div>
