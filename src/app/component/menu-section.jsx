@@ -21,16 +21,16 @@ function MenuSection() {
               <div className="flex-fill">
                     <ul className="nav navbar-nav d-flex justify-content-between mx-lg-auto">                    
                         <li className="nav-item">
-                            {/* <Link path="/" className="nav-link">Home</Link> */}
+                            <Link to="/" className="nav-link">Home</Link>
                         </li>
                         <li className="nav-item">
-                            {/* <NavLink to="/about" className="nav-link">About</NavLink> */}
+                            <Link to="/about" className="nav-link">About</Link>
                         </li>
                         <li className="nav-item">
-                            {/* <NavLink to="/shop" className="nav-link">Shop</NavLink> */}
+                            <Link to="/shop" className="nav-link">Shop</Link>
                         </li>
                         <li className="nav-item">
-                            {/* <NavLink to="/contact" className="nav-link">Contact</NavLink> */}
+                            <Link to="/contact" className="nav-link">Contact</Link>
                         </li>
                     </ul>
               </div>
