@@ -5,6 +5,7 @@ import MenuSection from './app/component/menu-section';
 import MainSection from './app/pages/main-page';
 import About from './app/pages/about';
 import Contact from './app/pages/contact';
+import Shop from './app/pages/shop';
 import FooterSection from './app/component/footer';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<MainSection />} />
           <Route exact path="/about" element={<About />} />
+          <Route exact path="/shop" element={<Shop />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       <FooterSection />

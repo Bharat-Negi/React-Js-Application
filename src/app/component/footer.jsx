@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from 'react-router-dom'
+
 function FooterSection() {
     return (
         // Start Footer
@@ -39,11 +42,21 @@ function FooterSection() {
                     <div className="col-md-4 pt-5">
                         <h2 className="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
                         <ul className="list-unstyled text-light footer-link-list">
-                            <li><a className="text-decoration-none" href="#">Home</a></li>
-                            <li><a className="text-decoration-none" href="#">About Us</a></li>
-                            <li><a className="text-decoration-none" href="#">Shop Locations</a></li>
-                            <li><a className="text-decoration-none" href="#">FAQs</a></li>
-                            <li><a className="text-decoration-none" href="#">Contact</a></li>
+                            <li>
+                                <Link to="/" className="nav-link">Home</Link>
+                            </li>
+                            <li>
+                                <Link to="/about" className="nav-link">About Us</Link>
+                            </li>
+                            <li>
+                                <Link to="/shop-locations" className="nav-link">Shop Locations</Link>
+                            </li>
+                            <li>
+                                <Link to="/FAQs" className="nav-link">FAQs</Link>
+                            </li>
+                            <li>
+                                <Link to="/contact" className="nav-link">Contact</Link>
+                            </li>
                         </ul>
                     </div>
 
