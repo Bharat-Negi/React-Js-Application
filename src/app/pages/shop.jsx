@@ -38,7 +38,7 @@ function Shop() {
                             <div className="col-md-4">
                                 <div className="card mb-4 product-wap rounded-0">
                                     <div className="card rounded-0">
-                                        <img className="card-img rounded-0 img-fluid" src={require('../images/shop_01.jpg')} />
+                                        <img className="card-img rounded-0 img-fluid" src='images/shop_01.jpg' />
                                             <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                                 <ul className="list-unstyled">
                                                     <li><a className="btn btn-success text-white" href="shop-single.html"><i className="far fa-heart"></i></a></li>
@@ -75,7 +75,7 @@ function Shop() {
                             <div className="col-md-4">
                                 <div className="card mb-4 product-wap rounded-0">
                                     <div className="card rounded-0">
-                                        <img className="card-img rounded-0 img-fluid" src={require('../images/shop_02.jpg')} />
+                                        <img className="card-img rounded-0 img-fluid" src='images/shop_02.jpg' />
                                             <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                                 <ul className="list-unstyled">
                                                     <li><a className="btn btn-success text-white" href="shop-single.html"><i className="far fa-heart"></i></a></li>
@@ -112,7 +112,7 @@ function Shop() {
                             <div className="col-md-4">
                                 <div className="card mb-4 product-wap rounded-0">
                                     <div className="card rounded-0">
-                                        <img className="card-img rounded-0 img-fluid" src={require('../images/shop_03.jpg')} />
+                                        <img className="card-img rounded-0 img-fluid" src='images/shop_03.jpg' />
                                             <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                                 <ul className="list-unstyled">
                                                     <li><a className="btn btn-success text-white" href="shop-single.html"><i className="far fa-heart"></i></a></li>
@@ -149,7 +149,7 @@ function Shop() {
                             <div className="col-md-4">
                                 <div className="card mb-4 product-wap rounded-0">
                                     <div className="card rounded-0">
-                                        <img className="card-img rounded-0 img-fluid" src={require('../images/shop_04.jpg')} />
+                                        <img className="card-img rounded-0 img-fluid" src='images/shop_04.jpg' />
                                             <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                                 <ul className="list-unstyled">
                                                     <li><a className="btn btn-success text-white" href="shop-single.html"><i className="far fa-heart"></i></a></li>
@@ -186,7 +186,7 @@ function Shop() {
                             <div className="col-md-4">
                                 <div className="card mb-4 product-wap rounded-0">
                                     <div className="card rounded-0">
-                                        <img className="card-img rounded-0 img-fluid" src={require('../images/shop_05.jpg')} />
+                                        <img className="card-img rounded-0 img-fluid" src='images/shop_05.jpg' />
                                             <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                                 <ul className="list-unstyled">
                                                     <li><a className="btn btn-success text-white" href="shop-single.html"><i className="far fa-heart"></i></a></li>
@@ -223,7 +223,7 @@ function Shop() {
                             <div className="col-md-4">
                                 <div className="card mb-4 product-wap rounded-0">
                                     <div className="card rounded-0">
-                                        <img className="card-img rounded-0 img-fluid" src={require('../images/shop_06.jpg')} />
+                                        <img className="card-img rounded-0 img-fluid" src='images/shop_06.jpg' />
                                             <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                                 <ul className="list-unstyled">
                                                     <li><a className="btn btn-success text-white" href="shop-single.html"><i className="far fa-heart"></i></a></li>
@@ -260,7 +260,7 @@ function Shop() {
                             <div className="col-md-4">
                                 <div className="card mb-4 product-wap rounded-0">
                                     <div className="card rounded-0">
-                                        <img className="card-img rounded-0 img-fluid" src={require('../images/shop_07.jpg')} />
+                                        <img className="card-img rounded-0 img-fluid" src='images/shop_07.jpg' />
                                             <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                                 <ul className="list-unstyled">
                                                     <li><a className="btn btn-success text-white" href="shop-single.html"><i className="far fa-heart"></i></a></li>
@@ -297,7 +297,7 @@ function Shop() {
                             <div className="col-md-4">
                                 <div className="card mb-4 product-wap rounded-0">
                                     <div className="card rounded-0">
-                                        <img className="card-img rounded-0 img-fluid" src={require('../images/shop_08.jpg')} />
+                                        <img className="card-img rounded-0 img-fluid" src='images/shop_08.jpg' />
                                             <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                                 <ul className="list-unstyled">
                                                     <li><a className="btn btn-success text-white" href="shop-single.html"><i className="far fa-heart"></i></a></li>
@@ -334,7 +334,7 @@ function Shop() {
                             <div className="col-md-4">
                                 <div className="card mb-4 product-wap rounded-0">
                                     <div className="card rounded-0">
-                                        <img className="card-img rounded-0 img-fluid" src={require('../images/shop_09.jpg')} />
+                                        <img className="card-img rounded-0 img-fluid" src='images/shop_09.jpg' />
                                             <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                                 <ul className="list-unstyled">
                                                     <li><a className="btn btn-success text-white" href="shop-single.html"><i className="far fa-heart"></i></a></li>

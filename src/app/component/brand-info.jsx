@@ -32,16 +32,16 @@ function BrandInfo() {
                                             <div className="carousel-item active">
                                                 <div className="row">
                                                     <div className="col-3 p-md-5">
-                                                        <a href="#"><img className="img-fluid brand-img" src={require('../images/brand_01.png')} alt="Brand Logo" /></a>
+                                                        <a href="#"><img className="img-fluid brand-img" src='images/brand_01.png' alt="Brand Logo" /></a>
                                                     </div>
                                                     <div className="col-3 p-md-5">
-                                                        <a href="#"><img className="img-fluid brand-img" src={require('../images/brand_02.png')} alt="Brand Logo" /></a>
+                                                        <a href="#"><img className="img-fluid brand-img" src='images/brand_02.png' alt="Brand Logo" /></a>
                                                     </div>
                                                     <div className="col-3 p-md-5">
-                                                        <a href="#"><img className="img-fluid brand-img" src={require('../images/brand_03.png')} alt="Brand Logo" /></a>
+                                                        <a href="#"><img className="img-fluid brand-img" src='images/brand_03.png' alt="Brand Logo" /></a>
                                                     </div>
                                                     <div className="col-3 p-md-5">
-                                                        <a href="#"><img className="img-fluid brand-img" src={require('../images/brand_04.png')} alt="Brand Logo" /></a>
+                                                        <a href="#"><img className="img-fluid brand-img" src='images/brand_04.png' alt="Brand Logo" /></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -51,16 +51,16 @@ function BrandInfo() {
                                             <div className="carousel-item">
                                                 <div className="row">
                                                     <div className="col-3 p-md-5">
-                                                        <a href="#"><img className="img-fluid brand-img" src={require('../images/brand_01.png')} alt="Brand Logo" /></a>
+                                                        <a href="#"><img className="img-fluid brand-img" src='images/brand_01.png' alt="Brand Logo" /></a>
                                                     </div>
                                                     <div className="col-3 p-md-5">
-                                                        <a href="#"><img className="img-fluid brand-img" src={require('../images/brand_02.png')} alt="Brand Logo" /></a>
+                                                        <a href="#"><img className="img-fluid brand-img" src='images/brand_02.png' alt="Brand Logo" /></a>
                                                     </div>
                                                     <div className="col-3 p-md-5">
-                                                        <a href="#"><img className="img-fluid brand-img" src={require('../images/brand_03.png')} alt="Brand Logo" /></a>
+                                                        <a href="#"><img className="img-fluid brand-img" src='images/brand_03.png' alt="Brand Logo" /></a>
                                                     </div>
                                                     <div className="col-3 p-md-5">
-                                                        <a href="#"><img className="img-fluid brand-img" src={require('../images/brand_04.png')} alt="Brand Logo" /></a>
+                                                        <a href="#"><img className="img-fluid brand-img" src='images/brand_04.png' alt="Brand Logo" /></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -70,16 +70,16 @@ function BrandInfo() {
                                             <div className="carousel-item">
                                                 <div className="row">
                                                     <div className="col-3 p-md-5">
-                                                        <a href="#"><img className="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo" /></a>
+                                                        <a href="#"><img className="img-fluid brand-img" src="images/brand_01.png" alt="Brand Logo" /></a>
                                                     </div>
                                                     <div className="col-3 p-md-5">
-                                                        <a href="#"><img className="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo" /></a>
+                                                        <a href="#"><img className="img-fluid brand-img" src="images/brand_02.png" alt="Brand Logo" /></a>
                                                     </div>
                                                     <div className="col-3 p-md-5">
-                                                        <a href="#"><img className="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo" /></a>
+                                                        <a href="#"><img className="img-fluid brand-img" src="images/brand_03.png" alt="Brand Logo" /></a>
                                                     </div>
                                                     <div className="col-3 p-md-5">
-                                                        <a href="#"><img className="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo" /></a>
+                                                        <a href="#"><img className="img-fluid brand-img" src="images/brand_04.png" alt="Brand Logo" /></a>
                                                     </div>
                                                 </div>
                                             </div>

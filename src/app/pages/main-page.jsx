@@ -18,17 +18,17 @@ function MainSection() {
                 </div>
                 <div className="row">
                     <div className="col-12 col-md-4 p-5 mt-3">
-                        <a href="#"><img src={require('../images/category_img_01.jpg')} className="rounded-circle img-fluid border" /></a>
+                        <a href="#"><img src='images/category_img_01.jpg' className="rounded-circle img-fluid border" /></a>
                         <h5 className="text-center mt-3 mb-3">Watches</h5>
                         <p className="text-center"><a className="btn btn-success">Go Shop</a></p>
                     </div>
                     <div className="col-12 col-md-4 p-5 mt-3">
-                        <a href="#"><img src={require('../images/category_img_02.jpg')} className="rounded-circle img-fluid border" /></a>
+                        <a href="#"><img src='images/category_img_02.jpg' className="rounded-circle img-fluid border" /></a>
                         <h2 className="h5 text-center mt-3 mb-3">Shoes</h2>
                         <p className="text-center"><a className="btn btn-success">Go Shop</a></p>
                     </div>
                     <div className="col-12 col-md-4 p-5 mt-3">
-                        <a href="#"><img src={require('../images/category_img_03.jpg')} className="rounded-circle img-fluid border" /></a>
+                        <a href="#"><img src='images/category_img_03.jpg' className="rounded-circle img-fluid border" /></a>
                         <h2 className="h5 text-center mt-3 mb-3">Accessories</h2>
                         <p className="text-center"><a className="btn btn-success">Go Shop</a></p>
                     </div>
@@ -52,7 +52,7 @@ function MainSection() {
                         <div className="col-12 col-md-4 mb-4">
                             <div className="card h-100">
                                 <a href="shop-single.html">
-                                    <img src={require('../images/feature_prod_01.jpg')} className="card-img-top" alt="..." />
+                                    <img src='images/feature_prod_01.jpg' className="card-img-top" alt="..." />
                                 </a>
                                 <div className="card-body">
                                     <ul className="list-unstyled d-flex justify-content-between">
@@ -76,7 +76,7 @@ function MainSection() {
                         <div className="col-12 col-md-4 mb-4">
                             <div className="card h-100">
                                 <a href="shop-single.html">
-                                    <img src={require('../images/feature_prod_02.jpg')} className="card-img-top" alt="..." />
+                                    <img src='images/feature_prod_02.jpg' className="card-img-top" alt="..." />
                                 </a>
                                 <div className="card-body">
                                     <ul className="list-unstyled d-flex justify-content-between">
@@ -100,7 +100,7 @@ function MainSection() {
                         <div className="col-12 col-md-4 mb-4">
                             <div className="card h-100">
                                 <a href="shop-single.html">
-                                    <img src={require('../images/feature_prod_03.jpg')} className="card-img-top" alt="..." />
+                                    <img src='images/feature_prod_03.jpg' className="card-img-top" alt="..." />
                                 </a>
                                 <div className="card-body">
                                     <ul className="list-unstyled d-flex justify-content-between">
