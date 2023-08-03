@@ -6,6 +6,7 @@ import MainSection from './app/pages/main-page';
 import About from './app/pages/about';
 import Contact from './app/pages/contact';
 import Shop from './app/pages/shop';
+import ShopSiglePage from './app/pages/shop-single';
 import FooterSection from './app/component/footer';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/shop" element={<Shop />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/shop-single" element={<ShopSiglePage />} />
         </Routes>
       <FooterSection />
   </BrowserRouter>    

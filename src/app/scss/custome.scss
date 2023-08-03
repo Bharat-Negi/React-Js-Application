@@ -274,6 +274,9 @@ div {
     width: 6px;
     height: 6px;
 }
+.form-floating > .form-control:not(:placeholder-shown) ~ label::after{
+    background-color: transparent;
+}
 
 .footLast{
     margin-bottom: 0;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 function productListPage(props) {
     return (
@@ -9,9 +10,21 @@ function productListPage(props) {
                         <img className="card-img rounded-0 img-fluid" src={props.pimage} />
                             <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul className="list-unstyled">
-                                    <li><a className="btn btn-success text-white" href="shop-single.html"><i className="far fa-heart"></i></a></li>
-                                    <li><a className="btn btn-success text-white mt-2" href="shop-single.html"><i className="far fa-eye"></i></a></li>
-                                    <li><a className="btn btn-success text-white mt-2" href="shop-single.html"><i className="fas fa-cart-plus"></i></a></li>
+                                    <li>
+                                        <Link to="/shop-single" className="btn btn-success text-white mb-2">
+                                            <i className="far fa-heart"></i>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/shop-single" className="btn btn-success text-white mb-2">
+                                            <i className="far fa-eye"></i>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/shop-single" className="btn btn-success text-white">
+                                            <i className="fas fa-cart-plus"></i>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </div>
                     </div>
