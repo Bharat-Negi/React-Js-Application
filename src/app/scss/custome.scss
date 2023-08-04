@@ -110,6 +110,7 @@ div {
 /* Accordion */
 .templatemo-accordion a {
     color: #000;
+    font-weight: 300;
 }
 
 .templatemo-accordion a:hover {
@@ -187,6 +188,7 @@ div {
 #template-mo-zay-hero-carousel .carousel-indicators li {
     margin-top: -50px;
     background-color: $greenColor;
+    overflow: hidden;
 }
 
 #template-mo-zay-hero-carousel .carousel-control-next i,

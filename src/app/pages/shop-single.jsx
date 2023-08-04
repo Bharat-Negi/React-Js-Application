@@ -1,5 +1,10 @@
 import React from "react";
 
+const minus = document.querySelector('#btn-minus')
+const plus = document.querySelector('#btn-plus');
+plus.addEventListener('click',() => document.getElementById("var-value").textContent++);
+minus.addEventListener('click',() => document.getElementById("var-value").textContent--);
+
 function ShopSigle(){
     return(
         <>
