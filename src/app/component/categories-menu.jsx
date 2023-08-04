@@ -1,5 +1,4 @@
 
-
 function CategoriesMenu() {
     return (
         <>

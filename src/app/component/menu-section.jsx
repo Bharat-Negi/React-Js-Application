@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import { Modal } from "bootstrap";
+// import { Modal } from "bootstrap";
 
 function MenuSection() {
     return (

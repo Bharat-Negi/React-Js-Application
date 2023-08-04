@@ -1,12 +1,28 @@
 import React from "react";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
-// const minus = document.querySelector('#btn-minus')
-// const plus = document.querySelector('#btn-plus');
-// plus.addEventListener('click',() => document.getElementById("var-value").textContent++);
-// minus.addEventListener('click',() => document.getElementById("var-value").textContent--);
-
-function ShopSigle(){
-    return(
+function ShopSigle() {
+    const responsive = {
+        superLargeDesktop: {
+            // the naming can be any, depends on you.
+            breakpoint: { max: 4000, min: 3000 },
+            items: 5
+        },
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 5
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1
+        }
+    };
+    return (
         <>
             {/* Open Content */}
             <section className="bg-light">
@@ -204,10 +220,8 @@ function ShopSigle(){
                         <h4>Related Products</h4>
                     </div>
 
-                    {/* Start Carousel Wrapper */}
-                    <div id="carousel-related-product" className="row">
-
-                        <div className="p-2 pb-3 col-md-3">
+                    <Carousel responsive={responsive}>
+                        <div className="p-2 pb-3">
                             <div className="product-wap card rounded-0">
                                 <div className="card rounded-0">
                                     <img className="card-img rounded-0 img-fluid" src="images/shop_08.jpg" />
@@ -244,6 +258,19 @@ function ShopSigle(){
                                 </div>
                             </div>
                         </div>
+                        <div>Item 2</div>
+                        <div>Item 3</div>
+                        <div>Item 4</div>
+                        <div>Item 4</div>
+                        <div>Item 4</div>
+                        <div>Item 4</div>
+                        <div>Item 4</div>
+                    </Carousel>
+
+                    {/* Start Carousel Wrapper */}
+                    <div id="carousel-related-product" className="row">
+
+
 
                         <div className="p-2 pb-3 col-md-3">
                             <div className="product-wap card rounded-0">
