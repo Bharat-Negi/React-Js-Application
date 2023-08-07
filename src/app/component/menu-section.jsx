@@ -1,8 +1,11 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Modal } from "bootstrap";
 
 function MenuSection() {
+    const location = useLocation();
+    // console.log(location);
+    
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light shadow">
@@ -18,16 +21,16 @@ function MenuSection() {
                     <div className="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
                         <div className="flex-fill">
                             <ul className="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                                <li className="nav-item">
-                                    <Link to="/" className="nav-link active">Home</Link>
+                                <li className={`nav-item ${location.pathname === '/' ? 'active' : ''}`}>
+                                    <Link to="/" className="nav-link">Home</Link>
                                 </li>
-                                <li className="nav-item">
+                                <li className={`nav-item ${location.pathname === '/about' ? 'active' : ''}`}>
                                     <Link to="/about" className="nav-link">About</Link>
                                 </li>
-                                <li className="nav-item">
+                                <li className={`nav-item ${location.pathname === '/shop' ? 'active' : ''}`}>
                                     <Link to="/shop" className="nav-link">Shop</Link>
                                 </li>
-                                <li className="nav-item">
+                                <li className={`nav-item ${location.pathname === '/contact' ? 'active' : ''}`}>
                                     <Link to="/contact" className="nav-link">Contact</Link>
                                 </li>
                             </ul>
