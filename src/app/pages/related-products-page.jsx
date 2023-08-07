@@ -1,8 +1,9 @@
 import React from "react";
 import Carousel from 'react-multi-carousel';
 import RelatedProducts from "../component/related-products"
+import relatedProductsData from '../data-files/related-products-data.json'
 
-function relatedProductsPage() {
+function RelatedProductsPage() {
     const responsive = {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
@@ -35,11 +36,16 @@ function relatedProductsPage() {
                     autoPlaySpeed={5000}
                 // removeArrowOnDeviceType={["tablet", "mobile"]}                     
                 >
-                    <RelatedProducts />
+                    {relatedProductsData && relatedProductsData.map(relatedProduct => {
+                        return <RelatedProducts 
+                        key={relatedProduct.id}
+                        item={relatedProduct} />
+                    }
+                    )}
                 </Carousel>
             </div>
         </section>
     )
 }
 
-export default relatedProductsPage;
+export default RelatedProductsPage;

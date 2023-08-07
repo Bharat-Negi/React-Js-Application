@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-// import { Modal } from "bootstrap";
+import { Modal } from "bootstrap";
 
 function MenuSection() {
-   
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light shadow">
@@ -20,7 +19,7 @@ function MenuSection() {
                         <div className="flex-fill">
                             <ul className="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                                 <li className="nav-item">
-                                    <Link to="/" className="nav-link">Home</Link>
+                                    <Link to="/" className="nav-link active">Home</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link to="/about" className="nav-link">About</Link>
