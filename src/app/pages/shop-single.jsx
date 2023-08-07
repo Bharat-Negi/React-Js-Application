@@ -1,24 +1,16 @@
-import React from "react";
-import Carousel from 'react-multi-carousel';
+import React, { useState } from "react";
 import 'react-multi-carousel/lib/styles.css';
-import RelatedProducts from "../component/related-products"
+import RelatedProductsPage from "../pages/related-products-page"
 
 function ShopSigle() {
-    const responsive = {
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 4,
-            slidesToSlide: 1 // optional, default to 1.
-        },
-        tablet: {
-            breakpoint: { max: 1024, min: 766 },
-            items: 3,
-            slidesToSlide: 1 // optional, default to 1.
-        },
-        mobile: {
-            breakpoint: { max: 766, min: 0 },
-            items: 1,
-            slidesToSlide: 1 // optional, default to 1.
+
+    const [counter, setCounter] = useState(0);
+    const incrementCounter = () => {
+        setCounter(counter + 1);
+    };
+    const decrementCounter = () => {
+        if (counter !== 0) {
+            setCounter(counter - 1);
         }
     };
     return (
@@ -189,9 +181,15 @@ function ShopSigle() {
                                                         Quantity
                                                         <input type="hidden" name="product-quanity" id="product-quanity" value="1" />
                                                     </li>
-                                                    <li className="list-inline-item"><span className="btn btn-success" id="btn-minus">-</span></li>
-                                                    <li className="list-inline-item"><span className="badge bg-secondary" id="var-value">1</span></li>
-                                                    <li className="list-inline-item"><span className="btn btn-success" id="btn-plus">+</span></li>
+                                                    <li className="list-inline-item">
+                                                        <span className="btn btn-success" onClick={decrementCounter}>-</span>
+                                                    </li>
+                                                    <li className="list-inline-item">
+                                                        <span className="badge bg-secondary">{counter}</span>
+                                                    </li>
+                                                    <li className="list-inline-item">
+                                                        <span className="btn btn-success" onClick={incrementCounter}>+</span>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -211,27 +209,7 @@ function ShopSigle() {
                     </div>
                 </div>
             </section>
-
-            {/* Start Article  */}
-            <section className="py-5">
-                <div className="container">
-                    <div className="row text-left p-2 pb-3">
-                        <h4>Related Products</h4>
-                    </div>
-
-                    <Carousel
-                        responsive={responsive}
-                        // showDots={true}
-                        infinite={true}
-                        autoPlay={true}
-                        autoPlaySpeed={5000}
-                        // removeArrowOnDeviceType={["tablet", "mobile"]}                     
-                    >
-                        <RelatedProducts />
-                    </Carousel>
-                </div>
-            </section>
-            {/* End Article */}
+            <RelatedProductsPage />
         </>
     )
 }

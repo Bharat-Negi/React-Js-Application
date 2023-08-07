@@ -260,6 +260,10 @@ div {
     border-color: #2d343f;
 }
 
+#templatemo_main_nav .navbar-nav .active{
+    color: red;
+}
+
 /*
   // Extra small devices (portrait phones, less than 576px)
   // No media query since this is the default in Bootstrap

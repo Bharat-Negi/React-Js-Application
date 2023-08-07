@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 // import { Modal } from "bootstrap";
 
 function MenuSection() {
+   
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light shadow">
