@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "proname": "Red Clothing",
+        "img": "images/shop_08.jpg",
+        "size": "M/L/X/XL",
+        "prise": 20.00
+    },
+    {
+        "id": 2,
+        "proname": "White Shirt",
+        "img": "images/shop_07.jpg",
+        "size": "M/L/X/XL",
+        "prise": 25.00
+    },
+    {
+        "id": 3,
+        "proname": "Black Fashion",
+        "img": "images/shop_06.jpg",
+        "size": "M/L/X/XL",
+        "prise": 40.00
+    },
+    {
+        "id": 4,
+        "proname": "Red Clothing",
+        "img": "images/shop_02.jpg",
+        "size": "M/L/X/XL",
+        "prise": 85.00
+    },
+    {
+        "id": 5,
+        "proname": "Black Fashion",
+        "img": "images/shop_01.jpg",
+        "size": "M/L/X/XL",
+        "prise": 70.00
+    },
+    {
+        "id": 6,
+        "proname": "White Shirt",
+        "img": "images/shop_05.jpg",
+        "size": "M/L/X/XL",
+        "prise": 60.00
+    },
+    {
+        "id": 7,
+        "proname": "Black Fashion",
+        "img": "images/shop_04.jpg",
+        "size": "M/L/X/XL",
+        "prise": 65.00
+    },
+    {
+        "id": 8,
+        "proname": "White Shirt",
+        "img": "images/shop_09.jpg",
+        "size": "M/L/X/XL",
+        "prise": 100.00
+    }
+]
