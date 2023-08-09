@@ -9,8 +9,10 @@ function Shop() {
         <>
             {/* <!-- Start Content --> */}
             <div className="container py-5">
-                <div className="row">                   
-                    <CategoriesMenu />
+                <div className="row">
+                    <div className="col-lg-3">
+                        <CategoriesMenu />
+                    </div>
                     <div className="col-lg-9">
                         <div className="row">
                             <div className="col-md-6">
@@ -40,7 +42,7 @@ function Shop() {
                             {/* <ProductList /> */}
                             {ProductData.map((val, index, arr) => {
                                 // console.log(index);
-                                return(
+                                return (
                                     <ProductList
                                         key={val.id}
                                         pimage={val.pimage}
@@ -49,7 +51,7 @@ function Shop() {
                                         price={val.price}
                                     />
                                 );
-                            })}                           
+                            })}
                         </div>
                         <div className="row">
                             <ul className="pagination pagination-lg justify-content-end">

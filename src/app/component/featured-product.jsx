@@ -31,7 +31,7 @@ function featuredProduct() {
                             {
                                FeaturedProData.review && FeaturedProData.review.map( data => {
                                     return(
-                                        <p className="text-muted" key={FeaturedProData.id}>Reviews ({data.point})</p>
+                                        <p className="text-muted" key={data.id}>Reviews ({data.point})</p>
                                     )
                                 })
                             }                            

@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "cname": "Gender",
+        "csubmenu" : [
+            {
+                "key": 1,
+                "csubname" : "Men",
+                "clink" : "#"
+            },
+            {
+                "key": 2,
+                "csubname" : "Women",
+                "clink" : "#"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "cname": "Sale",
+        "csubmenu" : [
+            {
+                "key": 3,
+                "csubname" : "Sport",
+                "clink" : "#"
+            },
+            {
+                "key": 4,
+                "csubname" : "Luxury",
+                "clink" : "#"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "cname": "Product",
+        "csubmenu" : [
+            {
+                "key": 5,
+                "csubname" : "Bag",
+                "clink" : "#"
+            },
+            {
+                "key": 6,
+                "csubname" : "Sweather",
+                "clink" : "#"
+            },
+            {
+                "key": 7,
+                "csubname" : "Sunglass",
+                "clink" : "#"
+            }
+        ]
+    }
+]
