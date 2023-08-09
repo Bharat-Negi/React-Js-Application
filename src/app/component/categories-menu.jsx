@@ -9,7 +9,7 @@ function CategoriesMenu() {
                 {
                     categoriesMenuData && categoriesMenuData.map(categoriesMenuData => {
                         return (
-                            <li className="pb-3" id={categoriesMenuData.id}>
+                            <li className="pb-3" key={categoriesMenuData.id}>
                                 <a className="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
                                     {categoriesMenuData.cname}
                                     <i className="fa fa-fw fa-chevron-circle-down mt-1"></i>
@@ -18,7 +18,7 @@ function CategoriesMenu() {
                                     {
                                         categoriesMenuData.csubmenu && categoriesMenuData.csubmenu.map(subData => {
                                             return (                                                
-                                                <li id={subData.key}>
+                                                <li key={subData.key}>
                                                     <a className="text-decoration-none" href={subData.clink}>{subData.csubname}</a>
                                                 </li>
                                             )
