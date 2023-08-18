@@ -8,7 +8,7 @@ label,
 input,
 div {
     font-family: $mainFont;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -20,13 +20,17 @@ div {
 
 .h2 {
     font-family: $mainFont;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 300;
 }
 
 .h3 {
     font-family: $mainFont;
     font-size: 22px;
+}
+
+h1 + p{
+    font-size: 18px;
 }
 
 /* General */
@@ -87,7 +91,7 @@ div {
 }
 
 #templatemo_nav_top * {
-    font-size: .93em;
+    font-size: .97em;
 }
 
 #templatemo_main_nav a {
