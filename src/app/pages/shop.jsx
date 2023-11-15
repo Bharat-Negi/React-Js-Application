@@ -40,7 +40,7 @@ function Shop() {
                         </div>
                         <div className="row">
                             {/* <ProductList /> */}
-                            {ProductData.map((val, index, arr) => {
+                            {ProductData.slice(0, 9).map((val, index, arr) => {
                                 // console.log(index);
                                 return (
                                     <ProductList
