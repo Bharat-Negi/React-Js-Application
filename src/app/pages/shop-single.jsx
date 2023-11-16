@@ -33,7 +33,7 @@ function ShopSigle() {
                                         <i className="fa fa-star text-warning"></i>
                                         <i className="fa fa-star text-warning"></i>
                                         <i className="fa fa-star text-secondary"></i>
-                                        <span className="list-inline-item text-dark"> Rating 4.8 | 36 Comments</span>
+                                        <span className="list-inline-item text-dark"> &nbsp;Rating 4.8 | 36 Comments</span>
                                     </p>
                                     <ul className="list-inline">
                                         <li className="list-inline-item">

@@ -4,6 +4,7 @@
         "img": "images/feature_prod_01.jpg",
         "title": "Gym Weight",
         "money": 240.00,
+        "stars": 4.3,
         "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.",
         "review" : [
             {
@@ -17,6 +18,7 @@
         "img": "images/feature_prod_02.jpg",
         "title": "Cloud Nike Shoes",
         "money": 480.00,
+        "stars": 3,
         "details": "Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.",
         "review" : [
             {
@@ -30,6 +32,7 @@
         "img": "images/feature_prod_03.jpg",
         "title": "Summer Addides Shoes",
         "money": 360.00,
+        "stars": 1,
         "details": "Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec." 
     }
 ]

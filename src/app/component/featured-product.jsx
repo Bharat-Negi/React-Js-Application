@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import FeaturedProData from '../data-files/featured-product-data.json'
+import Star from "./star";
 
-function featuredProduct() {
+function featuredProduct({stars}) {
     return(
         FeaturedProData && FeaturedProData.map(FeaturedProData => {
             return (
@@ -14,11 +15,7 @@ function featuredProduct() {
                         <div className="card-body">
                             <ul className="list-unstyled d-flex justify-content-between">
                                 <li>
-                                    <i className="text-warning fa fa-star"></i>
-                                    <i className="text-warning fa fa-star"></i>
-                                    <i className="text-warning fa fa-star"></i>
-                                    <i className="text-muted fa fa-star"></i>
-                                    <i className="text-muted fa fa-star"></i>
+                                    <Star stars={FeaturedProData.stars}/>
                                 </li>
                                 <li className="text-muted text-right">${FeaturedProData.money}</li>
                             </ul>
