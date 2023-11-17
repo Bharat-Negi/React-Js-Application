@@ -49,6 +49,7 @@ function Shop() {
                                         pname={val.pname}
                                         protext={val.protext}
                                         price={val.price}
+                                        stars={val.stars}
                                     />
                                 );
                             })}

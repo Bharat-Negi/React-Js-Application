@@ -5,7 +5,7 @@ const ProductListFile = [
         pimage : 'images/shop_01.jpg',
         pname : 'Product Name 1',
         protext : 'M/L/X/XL',
-        stars : 3,
+        stars : 2.5,
         price: '$250.00'
     },
     {
@@ -13,7 +13,7 @@ const ProductListFile = [
         pimage : 'images/shop_02.jpg',
         pname : 'Product Name 2',
         protext : 'M/L/X',
-        stars : 3,
+        stars : 3.5,
         price: '$250.00'
     },
     {
@@ -21,7 +21,7 @@ const ProductListFile = [
         pimage : 'images/shop_03.jpg',
         pname : 'Product Name 3',
         protext : 'M/L/X/XL',
-        stars : 3,
+        stars : 4,
         price: '$250.00'
     },
     {
@@ -29,7 +29,7 @@ const ProductListFile = [
         pimage : 'images/shop_04.jpg',
         pname : 'Product Name 4',
         protext : 'L/X/XL',
-        stars : 3,
+        stars : 5,
         price: '$250.00'
     },
     {
@@ -37,7 +37,7 @@ const ProductListFile = [
         pimage : 'images/shop_05.jpg',
         pname : 'Product Name 5',
         protext : 'M/L/X/XL',
-        stars : 3,
+        stars : 2,
         price: '$250.00'
     },
     {
@@ -53,7 +53,7 @@ const ProductListFile = [
         pimage : 'images/shop_07.jpg',
         pname : 'Product Name 7',
         protext : 'M/L/XL',
-        stars : 3,
+        stars : 1,
         price: '$250.00'
     },
     {
@@ -61,7 +61,7 @@ const ProductListFile = [
         pimage : 'images/shop_08.jpg',
         pname : 'Product Name 8',
         protext : 'M/L/X',
-        stars : 3,
+        stars : 5,
         price: '$250.00'
     },
     {
@@ -69,7 +69,7 @@ const ProductListFile = [
         pimage : 'images/shop_09.jpg',
         pname : 'Product Name 9',
         protext : 'L/X/XL',
-        stars : 3,
+        stars : 4,
         price: '$250.00'
     }
 ];

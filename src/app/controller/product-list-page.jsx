@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Star from "../component/star";
 
 function productListPage(props) {
+    console.log(props.stars)
     return (
         <>
             <div className="col-md-4">
@@ -44,7 +45,7 @@ function productListPage(props) {
                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                             <li>
                                 <Star stars={props.stars}/>                                
-                            </li>
+                            </li>                            
                         </ul>
                         <p className="text-center mb-0">{props.price}</p>
                     </div>

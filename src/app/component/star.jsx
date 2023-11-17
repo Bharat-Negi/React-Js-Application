@@ -6,7 +6,7 @@ const Star = ({stars}) => {
         return <i key={index}>
             {
                 stars >= index + 1 ? (<i className="text-warning fa fa-star"></i>) 
-                : stars >= number ? (<i className="text-info fa fa-star"></i>) 
+                : stars >= number ? (<i className="text-warning fa fa-star-half"></i>) 
                 : (<i className="text-muted fa fa-star"></i>)
             }
         </i>
