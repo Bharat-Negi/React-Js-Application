@@ -4,7 +4,7 @@
         "img": "images/feature_prod_01.jpg",
         "title": "Gym Weight",
         "money": 240.00,
-        "stars": 4.3,
+        "stars": 4,
         "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.",
         "review" : [
             {

@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import Star from "../component/star";
 
 function productListPage(props) {
     return (
@@ -42,11 +43,7 @@ function productListPage(props) {
                         </ul>
                         <ul className="list-unstyled d-flex justify-content-center mb-1">
                             <li>
-                                <i className="text-warning fa fa-star"></i>
-                                <i className="text-warning fa fa-star"></i>
-                                <i className="text-warning fa fa-star"></i>
-                                <i className="text-muted fa fa-star"></i>
-                                <i className="text-muted fa fa-star"></i>
+                                <Star stars={props.stars}/>                                
                             </li>
                         </ul>
                         <p className="text-center mb-0">{props.price}</p>

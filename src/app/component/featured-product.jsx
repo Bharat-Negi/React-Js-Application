@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import FeaturedProData from '../data-files/featured-product-data.json'
 import Star from "./star";
 
-function featuredProduct({stars}) {
+function featuredProduct() {
     return(
         FeaturedProData && FeaturedProData.map(FeaturedProData => {
             return (
